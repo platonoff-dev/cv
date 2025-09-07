@@ -37,7 +37,7 @@ jobs:
         minify -i build/index.html
         minify web/styles.css > build/styles.css
         cp static/avatar.jpeg build/
-        uv run scripts/generate_favicons.py avatar.jpeg --output-dir build
+        uv run scripts/generate_favicons.py static/avatar.jpeg --output-dir build
     - name: Add custom CNAME
       run: echo cv.platonoff.dev > ./build/CNAME
     - name: Deploy
