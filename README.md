@@ -4,7 +4,7 @@ Personal CV setup with PDF and web versions generated from YAML data.
 
 ## Live Site
 
-<https://cv.vlcdn.dev>
+<https://cv.platonoff.dev>
 
 ## How it works
 
@@ -23,7 +23,7 @@ typst compile --root . typst/cv.typ --font-path static/fonts cv.pdf
 uv run scripts/render.py web/index.html.j2 data.yaml build/index.html
 
 # Generate favicons
-uv run scripts/generate_favicons.py avatar.jpeg --output-dir build/
+uv run scripts/generate_favicons.py static/avatar.jpeg --output-dir build/
 
 # Copy CSS
 cp web/styles.css build/
