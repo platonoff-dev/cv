@@ -40,10 +40,9 @@ jobs:
         minify web/styles.css > build/styles.css
         cp static/avatar.jpeg build/
         uv run scripts/generate_favicons.py static/avatar.jpeg --output-dir build
-    - name: Add custom CNAME
-      run: echo cv.platonoff.dev > ./build/CNAME
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./build
+        cname: cv.platonoff.dev
