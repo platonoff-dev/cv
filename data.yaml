@@ -1,0 +1,78 @@
+author: Anatolii Platonov
+base_url: https://cv.platonoff.dev
+about: |
+  Accomplished Cloud Infrastructure Engineer with 5+ years building scalable cloud platforms and Kubernetes-based services. Deep expertise in serverless architectures (FaaS/CaaS), AI inference infrastructure, and high-performance distributed systems.
+positions:
+- Senior Cloud Platform Engineer
+- Senior Software Engineer
+location: Tbilisi, Georgia
+contacts:
+  email: platonoff.dev@gmail.com
+  github: platonoff-dev
+  linkedin: platonoff-dev
+experience:
+- position: Senior Cloud Platform Engineer
+  company: Gcore
+  location: Tbilisi, Georgia (Remote)
+  dates:
+    start: Nov 2022
+  highlights:
+  - Architected and built serverless compute platform from ground up, including Function-as-a-Service (FaaS) and Container-as-a-Service (CaaS) offerings serving production workloads
+  - Led evolution of CaaS into AI Inference platform, directly contributing to new revenue stream
+  techStack:
+  - Python
+  - Go
+  - FastAPI
+  - PostgreSQL
+  - Kubernetes
+  - Terraform
+  - Prometheus
+  - Grafana
+  - Docker
+- position: Senior Software Engineer
+  company: Zebrunner
+  location: Warsaw, Poland
+  dates:
+    start: Sep 2020
+    end: Aug 2022
+  highlights:
+  - Built highly scalable Selenium Grid in Go supporting 1000+ concurrent browser sessions, 10x improvement over previous architecture
+  - Optimized AWS integration and autoscaling, reducing per-browser cost by 40% through intelligent resource management
+  - Created Python SDK suite adopted enterprise clients, becoming primary integration method for new technical stacks
+  - Delivered performance consulting to enterprise clients, achieving up to 10x test execution speedup through architectural improvements
+  techStack:
+  - Python
+  - Go
+  - Docker
+  - AWS
+  - Selenium Grid
+  - Pytest
+- position: Software Engineer
+  company: Helium 10
+  location: Tiraspol, Moldova
+  dates:
+    start: Feb 2020
+    end: Aug 2020
+  highlights:
+  - Built high-throughput data pipeline processing 100K+ Amazon products daily, directly improving price prediction accuracy by 25%
+  - Optimized ML model management platform, reducing deployment time from hours to minutes
+  - Redesigned ETL pipelines for 3x throughput improvement while maintaining data integrity
+  techStack:
+  - Python
+  - Flask
+  - PostgreSQL
+  - Docker
+  - AWS
+  - ETL
+education:
+- institution: Shevchenko Transnistria State University
+  degree: Applied Mathematics and Computer Science
+  dates:
+    start: Sep 2017
+    end: Sep 2021
+skills:
+  languages:
+  - name: English
+    level: C1
+  - name: Russian
+    level: native
