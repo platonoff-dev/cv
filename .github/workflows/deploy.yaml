@@ -1,4 +1,6 @@
 name: Deploy CV
+permissions:
+  contents: write
 on:
   push:
     branches:
