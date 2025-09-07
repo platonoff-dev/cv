@@ -138,7 +138,9 @@
                         {% for detail in edu.details %}
                         <li class="highlights-list__item">{{ detail | markdown_links | safe }}</li>
                         {% endfor %}
+                        {% if edu.gpa %}
                         <li class="highlights-list__item">GPA: {{ edu.gpa }}</li>
+                        {% endif %}
                     </ul>
                 </article>
                 {% endfor %}

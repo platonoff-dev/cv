@@ -17,7 +17,7 @@ Personal CV setup with PDF and web versions generated from YAML data.
 
 ```bash
 # Build PDF
-typst compile --root . typst/cv.typ --font-path typst/fonts/ cv.pdf
+typst compile --root . typst/cv.typ --font-path static/fonts cv.pdf
 
 # Build HTML
 uv run scripts/render.py web/index.html.j2 data.yaml build/index.html
