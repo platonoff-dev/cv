@@ -18,10 +18,10 @@ experience:
     start: Nov 2022
   highlights:
   - >
-    Architected and built serverless compute platform from ground up, including Function-as-a-Service (FaaS) and Container-as-a-Service (CaaS) offerings serving production workloads. Designed Kuberbetes APIs (Custom Resources and Controllers) to enable multi-tenant, secure, and scalable serverless execution environments.
+    Designed and built serverless compute platform from ground up, including Function-as-a-Service (FaaS) and Container-as-a-Service (CaaS) offerings serving production workloads. Designed Kubernetes APIs (Custom Resources and Controllers) to make projects Kubernetes native.
   - Led evolution of CaaS into AI Inference platform, directly contributing to new revenue stream
   - "Established engineering excellence standards across team: implemented strict linting, comprehensive type checking, and robust testing frameworks while enforcing clean code architecture principles"
-  - Contributed to enterprise Gateway API implementation. Designed and developed custom controllers to extend Kubernetes API for advanced traffic management and security features
+  - Contributed to enterprise Gateway API implementation.
   - Developed Managed Kubernetes as a Service platform, building control plane automation and cluster lifecycle management for multi-tenant environments.
   - Developed Managed Container Registry service, implementing secure image storage, vulnerability scanning.
   techStack:
@@ -77,14 +77,14 @@ experience:
     end: Feb 2020
   highlights:
   - Led team of 3 engineers while maintaining hands-on development responsibilities.
-  - Architected and implmented recruiting platform backend for Skolkovo, implementing intelligent candidate matching algorithms.
+  - Architected and implemented recruiting platform backend for Skolkovo, implementing intelligent candidate matching algorithms.
   - Designed scalable search infrastructure handling complex multi-parameter queries.
   techStack:
   - Python
   - C#
+  - .NET Core
   - ElasticSearch
   - Postgres
-  - .NET Core
 education:
 - institution: Shevchenko Transnistria State University
   degree: Applied Mathematics and Computer Science

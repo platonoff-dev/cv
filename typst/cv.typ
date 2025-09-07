@@ -202,6 +202,12 @@
     ]
   ]
   block[
+    #set text(
+      size: 10pt,
+      style: "normal",
+      weight: "light",
+      fill: colors.primary,
+    )
     #if techStack != none [
       Tech stack: #techStack.join(", ")
     ]
@@ -367,7 +373,5 @@
     fill: colors.primary,
   )
   #set par(leading: 0.65em)
-  #for lang in data.skills.languages [
-    - #lang.name (#lang.level)
-  ]
+  #data.skills.languages.map(it => it.name + "(" + it.level + ")").join(", ")
 ]
