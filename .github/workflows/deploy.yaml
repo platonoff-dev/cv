@@ -1,6 +1,4 @@
 name: Deploy CV
-permissions:
-  contents: write
 on:
   push:
     branches:
@@ -10,7 +8,7 @@ jobs:
     name: Deploy to Github Pages
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
       deployments: write
     steps:
     - name: Checkout
