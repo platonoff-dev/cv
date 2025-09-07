@@ -33,7 +33,8 @@ jobs:
         typst compile --root . typst/cv.typ --font-path static/fonts/ build/aplatonov-cv.pdf
     - name: Build web page
       run: |
-        uv run scripts/render.py web/index.html.j2 data.yaml - | minify --html > build/index.html
+        uv run scripts/render.py web/index.html.j2 data.yaml - > build/index.html
+        minify -i build/index.html
         minify web/styles.css > build/styles.css
         cp static/avatar.jpeg build/
         uv run scripts/generate_favicons.py avatar.jpeg --output-dir build
