@@ -2,7 +2,7 @@
 
 #let data = yaml("../data.yaml")
 
-#let primary-font = "Roboto"
+#let primary-font = "Inter"
 
 #let colors = (
   primary: color.black,
@@ -162,6 +162,7 @@
   position: none,
   location: "",
   date: "",
+  techStack: none,
   body
 ) = {
   block(above: 1em, below: 0.65em)[
@@ -198,6 +199,11 @@
     #set par(leading: 0.65em)
     #block(above: 0.5em)[
       #body
+    ]
+  ]
+  block[
+    #if techStack != none [
+      Tech stack: #techStack.join(", ")
     ]
   ]
 }
@@ -305,6 +311,7 @@
     company: exp.company,
     location: exp.location,
     date: date-range(exp.dates),
+    techStack: exp.techStack
   )[
     #if "highlights" in exp [
       #for h in exp.highlights [
